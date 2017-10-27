@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.youmeek</groupId>
-    <artifactId>ssm</artifactId>
+    <artifactId>ssm1024</artifactId>
     <packaging>war</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>ssm1024</name>
     <description>
         为了方便以后的一些问题的讲解特地准备一个最精简的 SpringMVC+Spring+Mybatis 框架整合，方便以后的一些问题的演示
@@ -74,7 +74,7 @@
         <!--插件版本变量 end-->
 
         <!--其他变量 start-->
-        <war-name.version>ssm</war-name.version>
+        <war-name.version>ssm1024</war-name.version>
         <jdk.version>1.7</jdk.version>
 
         <tomcat-port.version>8080</tomcat-port.version>
