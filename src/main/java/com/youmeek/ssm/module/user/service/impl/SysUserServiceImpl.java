@@ -4,6 +4,7 @@ import com.youmeek.ssm.module.user.mapper.SysUserMapper;
 import com.youmeek.ssm.module.user.pojo.SysUser;
 import com.youmeek.ssm.module.user.service.SysUserService;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 
@@ -12,7 +13,6 @@ public class SysUserServiceImpl implements SysUserService {
 	
 	@Resource
 	private SysUserMapper sysUserMapper;
-
 
 	@Override
 	public SysUser getById(Long id) {
